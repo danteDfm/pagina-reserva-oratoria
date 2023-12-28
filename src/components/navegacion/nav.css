@@ -1,0 +1,87 @@
+.nav{   
+
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    z-index: 1;
+
+
+    backdrop-filter: blur(50px);
+}
+
+.navegacion{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    justify-content: center;
+    list-style: none;
+    margin-left: 25px;
+    gap: 10px;
+    padding-left: 0%;
+}
+.list li{
+
+    display: flex;
+   
+    font-family: 'Roboto', sans-serif;
+   
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+   
+  
+}
+
+.content_icon{
+  
+       
+    color: white;
+    background-size: cover;
+    margin: 0%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.content_iconos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+   justify-content: end;
+    align-items: center;
+  
+}
+.content_iconos ul{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.icon_redes{
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  
+}
+
+.icon_insta{ background-image: url("../../assets/insta.png");}
+.icon_likedin{ background-image: url("../../assets/lin.png");}
+.icon_whattsapp{ background-image: url("../../assets/whattsapp.png");}
+.icon_facebook{ background-image: url("../../assets/face.png");}
