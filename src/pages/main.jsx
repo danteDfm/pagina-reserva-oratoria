@@ -41,10 +41,15 @@ export function Main() {
 
 
         <div className='content_area content_card'>
-          <div className='card'> </div>
-          <div className='card'> </div>
-          <div className='card'> </div>
-          <div className='card'> </div>
+          <div className='card'> 
+            <h2>primer evento</h2>
+          </div>
+          <div className='card'>
+            <h2>segundo evento</h2> </div>
+          <div className='card'> 
+          <h2>tercer evento</h2></div>
+          <div className='card'>
+            <h2>cuarto evento</h2> </div>
         </div>
       </main>
     </>
