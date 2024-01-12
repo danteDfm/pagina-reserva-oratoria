@@ -1,0 +1,80 @@
+.btn{
+
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    border: 0px;
+    outline: none;
+    transition: .5s;
+
+    font-size: 16px;
+    font-weight: 500;
+    
+   
+}
+.btn:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+   
+}
+
+
+.humo{
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}   
+
+.boleta{
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.2);
+}
+
+/* data boleta */
+
+
+.datos_user{
+   
+    box-shadow: 0px 0px 2px white;
+    position: fixed;
+    right: 0%;
+    top: 35%;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    backdrop-filter: blur(50px);
+}
+
+.data{
+    margin-top: 10px;
+    color: white;
+    letter-spacing: .5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    text-align: center;
+}
+.data p{
+   font-size: 15px;
+   font-weight: 100;
+}

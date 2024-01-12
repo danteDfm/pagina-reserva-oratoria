@@ -1,0 +1,163 @@
+.seccion_descripcion {
+
+    width: 100%;
+    height: 100vh;   
+  
+    display: flex;
+    background-image: url("../../../assets/teatro1.jpg");
+    background-position: center;
+     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+ 
+
+}
+
+
+.title_galeria{
+
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    margin: 0%;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.container_button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    z-index: 1;
+    
+}
+.btn3{
+    
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    border: 1px white solid;
+    padding: 0%;
+    margin: 0%;
+   
+}
+.btn4{
+    
+    border: 1px white solid;
+    background: transparent;
+    color: white;
+    width: 110px;
+    height: 35px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn3, .btn4{
+    cursor: pointer;
+}
+
+
+
+.galeria_des{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria_des h2{
+    
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: .5px;
+    width: 900px;
+}
+.galeria_des p{
+
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    width: 900px;
+  
+}
+
+
+
+.preguntas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 10px;
+    
+}
+
+.card_res{
+    width: 350px;
+    height: 280px;
+    box-shadow: 0px 0px 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card_res h3{
+    
+    color: white;
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 25px;
+    
+}
+.card_res p{
+    
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    letter-spacing: .5px;
+  
+}
+
+
+
+
+
+.llevame_contactar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin-bottom: 100px;
+}
+.llevame_contactar h2{
+    
+    color: white;
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 40px;
+}
+.llevame_contactar p{
+    
+    color: white;
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 17px;
+    width: 900px;
+    margin-bottom: 30px;
+}

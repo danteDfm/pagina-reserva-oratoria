@@ -1,0 +1,71 @@
+.secciones_transaccion{
+    
+    height: 100vh;
+    width: 100vw;
+  
+}
+
+.formulario_transaccion{
+
+    display: flex;
+    box-shadow: 1px 1px 3px white;
+    flex-direction: column;
+    width: 800px;
+    padding: 0px 20px 0px 20px;
+    height: 420px;
+    border-radius: 10px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+   
+ 
+}
+
+.inp1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inp1 input{
+    width: 50%;
+    height: 35px;
+}
+.formulario_transaccion input{
+
+    width: 100%;    
+    height: 45px;
+   
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    border-bottom: 1px white solid;
+    
+  
+    font-size: 17px;
+   
+   
+}
+
+.formulario_transaccion input:focus{
+    outline: none;
+    color: white;
+}
+.formulario_transaccion input::placeholder{
+    color: white;
+    font-size: 17px;
+ 
+}
+
+.title_transaccion{
+    font-size: 40px;
+    color: white;
+  
+    font-weight: 500;
+    margin-bottom: 34px;
+
+
+}
+
+.inflexion{
+    margin-bottom: 20px;
+}

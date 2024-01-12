@@ -1,0 +1,84 @@
+
+.secciones_transaccion{
+
+    width: 100vw;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    
+}
+
+
+
+
+
+.pantalla{
+    width: 700px;
+    height: 10px;
+    background-color: white;
+    margin: 10px;
+  
+}
+.asiento{
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+
+ 
+}
+
+.c1:hover{
+    background-color: #9c9c9c;
+}
+.asi1{
+    width: 45px;
+    height: 45px;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    margin: 4px;
+    border: 0px;
+    font-size: 10px;
+    font-weight: 100;
+}
+.primera_posicion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.segunda_posicion{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    margin: 0%;
+}
+
+
+
+.asiento_section{
+    flex-direction: column;
+    
+}
+
+
+
+.title_asiento{
+    font-size: 40px;
+    color: white;
+
+    
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+

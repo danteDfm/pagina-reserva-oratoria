@@ -1,0 +1,125 @@
+.content_card{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+.content_card_preview{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.title_card{
+
+    font-size: 40px;
+    color: white;
+    margin: 0%; 
+    
+    font-weight: 500;
+    margin-bottom: 50px;
+    z-index: 1;
+   
+}
+.card{
+
+    width: 330px;
+    height: 450px;
+
+    backdrop-filter: blur(40px);
+    z-index: 1;
+   
+    border-radius: 10px;
+     background-image: url("../../../assets/w1.jpg");
+    background-size: cover;
+
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    transition: 1s;
+
+   
+   
+   
+
+}
+
+.card::before{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1f293766;
+    border-radius: 10px;
+    z-index: -1;
+    margin: 0%;
+    padding: 0%;
+    backdrop-filter: blur(50px);
+}
+.card:hover{
+    
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.card h3{
+    
+  
+    color: rgba(255, 255, 255, 0.836);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.card .img_card{
+  
+    width: 130px;
+    height: 130px;
+    background-image: url("../../../assets/w3.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    
+}
+
+.card .info_card{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.681);
+   
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 15px;
+    transform: translateY(15px);
+    width: 100%;
+    text-wrap:wrap;
+
+  
+}
+
+
+.card .meta_card{
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.681);
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 50px;
+
+}
